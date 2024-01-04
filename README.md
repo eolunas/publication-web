@@ -1,4 +1,4 @@
-# Proyecto 
+# [Piblication-Web](https://publication-page-malif5dpy-eduardo-luna-silvas-projects.vercel.app/) 
 
 Este proyecto tiene como objetivo proporcionar a los usuarios una herramienta eficiente para gestionar publicaciones y visualizar los comentarios mediante un desarrollo frontend de una pagina web. La aplicación permitirá a los usuarios explorar un listado de publicaciones, brindando acceso a información detallada sobre cada una. Para facilitar la búsqueda, los usuarios podrán aplicar un filtro de busqueda por palabra clave, asi mismo el usuario puede borrar y editar las publicaciones. Con esta herramienta, se simplifica la experiencia de visualizacion de publicaciones, brindando a los usuarios la capacidad de estar informados.
 
