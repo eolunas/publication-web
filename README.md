@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Proyecto 
 
-## Getting Started
+Este proyecto tiene como objetivo proporcionar a los usuarios una herramienta eficiente para gestionar publicaciones y visualizar los comentarios mediante un desarrollo frontend de una pagina web. La aplicación permitirá a los usuarios explorar un listado de publicaciones, brindando acceso a información detallada sobre cada una. Para facilitar la búsqueda, los usuarios podrán aplicar un filtro de busqueda por palabra clave, asi mismo el usuario puede borrar y editar las publicaciones. Con esta herramienta, se simplifica la experiencia de visualizacion de publicaciones, brindando a los usuarios la capacidad de estar informados.
 
-First, run the development server:
+## Tecnologías Utilizadas
 
-```bash
+- Next.js: Marco de trabajo que permite crear aplicaciones de aplicaciones web de alto rendimiento a través de la renderización del lado del servidor.
+- TypeScrip: Lenguaje de programación utilizado para desarrollar la Aplicacion web.
+- Tailwind CSS:Framework CSS que permite aplicar estilos a los sitios web de una manera ágil y optimizada. 
+
+## Desarrollo
+
+### Estructura de Carpetas
+
+La estructura de carpetas del proyecto se organiza de la siguiente manera:
+
+src/│
+├── app/
+    ├── listado/
+        ├── id/
+            └── page.tsx
+    ├── newpost/
+        ├── favicon.ico
+        ├── globals.css
+        ├── layout.tsx
+        └── page.tsx
+    ├── components/
+        ├── Carditem.tsx
+        ├── Commentitem.tsx
+        ├── CommentList.tsx
+        ├── EditableField.tsx 
+        ├── NavBar.tsx 
+        └──
+  ├── context/ 
+        └──  PostContext.tsx      
+  ├── hooks/
+        ├── useLocalStorage.js
+        ├── useOnScreen.js
+        └── usePostStorage.js   
+  ├── services/ 
+        └── PostSservice.tsx      
+
+## Como ejecutar:
+Correr el comando:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Abrir [http://localhost:3000](http://localhost:3000) en algun navegador para ver el resultado.
